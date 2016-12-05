@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up - AnalogSea</title>
+	<meta name="description" content="The sign up page for AnalogSea."/>
+	<link rel="stylesheet" type="text/css" href="styles/analogsea.css" />
+</head>
+<body>
+	<header class="center-element as_header">
+		<img class="center-element" src="images/analog_sea.png" alt="Analog Sea Logo" />
+	</header>
+	<form class="center-element signup-form" action="/signup/" method="post">
+		<h1>Sign Up</h1>
+		<label for="email">Email</label><input type="email" id="email" name="email" placeholder="foo@bar.com" required>
+		<label for="password">Password</label><input type="password" id="password" name="password" placeholder="1234passw0rd" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" title="Password must be at least 8 characters long and contain 1 lowercase letter, 1 uppercase letter and 1 digit." required>
+		<button type="submit">Sign Up</button>
+		<div class="center-text forgot-password"><a class="center-element forgot-password" href="/forgot-password/new">Forgot password?</a></div>
+	</form>
+	<div class="center-element login">Already have an account? <a href="/login">Log in</a></div>
+</body>
+</html>

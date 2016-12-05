@@ -1,0 +1,75 @@
+body{
+	background-color: dodgerblue;
+}
+.as_header{
+	height: 60px;
+	width: 100%;
+	text-align: center;
+}
+.as_header img{
+	height: 35px;
+	margin-top: 12.5px;
+	margin-bottom: 12.5px;
+	width: 166px;
+}
+.center-text{
+	text-align: center;
+}
+.center-element{
+	margin: 0 auto;
+}
+.signup-form, .as_header, .login{
+	width: 400px;
+}
+.signup-form{
+	padding: 20px 40px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+.signup-form *{
+	width: 320px;
+}
+.signup-form h1{
+	text-align: center;
+	margin-top: 0;
+	font-family: Verdana;
+	font-weight: lighter;
+}
+
+.signup-form, .signup-form input, .signup-form button{
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.signup-form input, .signup-form button{
+	padding: 15px;
+	border: 2px solid lightgray;
+}
+.signup-form input{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: lightgray;
+	font-size: 18px;
+}
+.signup-form button{
+	color: white;
+	font-weight: bold;
+	height: 55px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	background-color: #69D600;
+}
+.signup-form button:hover{
+	background-color: green;
+	cursor: pointer;
+}
+.forgot-password a:link{
+	color: gray;
+}
+.login, .login a:link{
+	color: white;
+}
+.login{
+	font-weight: bold;
+	text-align: center;
+}
