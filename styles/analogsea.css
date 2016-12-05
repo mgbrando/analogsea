@@ -1,5 +1,7 @@
 body{
 	background-color: dodgerblue;
+	margin-left: 0;
+	margin-right: 0;
 }
 .as_header{
 	height: 60px;
